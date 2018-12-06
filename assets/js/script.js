@@ -37,7 +37,7 @@
 function shuffle () {
 
 
-	var coloc = new Array("test1", "test2", "test3", "test4", "test5")
+	var coloc = new Array("Martha", "Sissi", "Marion", "Andras", "Samy")
 	var index = Math.floor(Math.random() * coloc.length);
 	var participantsRestants=coloc.slice(0);
 	var case1=[];
@@ -55,44 +55,39 @@ function shuffle () {
 	blb.innerHTML = 
 	`
 	<tr>
-	<td  class="week1">Task1</td>
+	<td  class="week1">Salon</td>
 	<td  class="case1">${case1}</td>
 	<td  class="case2">${case2}</td>
 	<td  class="case3">${case3}</td>
-	<td  class="case4">${case4}</td>
-	<td  class="case5">${case5}</td>
+
 	</tr>
 	<tr>
-	<td  class="week1">Task2</td>
+	<td  class="week1">Cuisine</td>
 	<td  class="case1">${case5}</td>
 	<td  class="case2">${case1}</td>
 	<td  class="case3">${case2}</td>
-	<td  class="case4">${case3}</td>
-	<td  class="case5">${case4}</td>
+
 	</tr>
 	<tr>
-	<td  class="week1">Task3</td>
+	<td  class="week1">Palier</td>
 	<td  class="case1">${case2}</td>
 	<td  class="case2">${case4}</td>
 	<td  class="case3">${case1}</td>
-	<td  class="case4">${case5}</td>
-	<td  class="case5">${case3}</td>
+
 	</tr>
 	<tr>
-	<td  class="week1">Task4</td>
+	<td  class="week1">Toilette</td>
 	<td  class="case1">${case3}</td>
 	<td  class="case2">${case5}</td>
 	<td  class="case3">${case4}</td>
-	<td  class="case4">${case1}</td>
-	<td  class="case5">${case2}</td>
+
 	</tr>
 	<tr>
-	<td  class="week1">Task5</td>
+	<td  class="week1">Salle de bain</td>
 	<td  class="case1">${case4}</td>
 	<td  class="case2">${case3}</td>
 	<td  class="case3">${case5}</td>
-	<td  class="case4">${case4}</td>
-	<td  class="case5">${case1}</td>
+
 	</tr>
 
 
