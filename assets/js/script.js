@@ -37,7 +37,7 @@
 function shuffle () {
 
 
-	var coloc = new Array("Martha", "Sissi", "Marion", "Andras", "Samy")
+	var coloc = new Array("Vivyane", "Flore", "Delaine", "Pierre", "Samy")
 	var index = Math.floor(Math.random() * coloc.length);
 	var participantsRestants=coloc.slice(0);
 	var case1=[];
